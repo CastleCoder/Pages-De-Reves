@@ -11,6 +11,13 @@
 		9720A5722B2A252C009912D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720A5712B2A252C009912D5 /* ContentView.swift */; };
 		9720A5742B2A252D009912D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9720A5732B2A252D009912D5 /* Assets.xcassets */; };
 		9720A5772B2A252D009912D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9720A5762B2A252D009912D5 /* Preview Assets.xcassets */; };
+		9720A57E2B2A4CE5009912D5 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720A57D2B2A4CE5009912D5 /* MainPage.swift */; };
+		9720A5802B2A4D87009912D5 /* StoriesBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9720A57F2B2A4D87009912D5 /* StoriesBoard.swift */; };
+		972D7BDE2B3F72C6002768FB /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972D7BDD2B3F72C6002768FB /* Cities.swift */; };
+		972D7BE02B3F72D7002768FB /* AnimalsOfForest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972D7BDF2B3F72D7002768FB /* AnimalsOfForest.swift */; };
+		972D7BE22B3F72E8002768FB /* Landscapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972D7BE12B3F72E8002768FB /* Landscapes.swift */; };
+		97C027AD2B306FB500962EAE /* FirstStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C027AC2B306FB500962EAE /* FirstStory.swift */; };
+		97DA214A2B3868DA00B29345 /* SecondStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA21492B3868DA00B29345 /* SecondStory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		9720A5712B2A252C009912D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9720A5732B2A252D009912D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9720A5762B2A252D009912D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9720A57D2B2A4CE5009912D5 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		9720A57F2B2A4D87009912D5 /* StoriesBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesBoard.swift; sourceTree = "<group>"; };
+		972D7BDD2B3F72C6002768FB /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
+		972D7BDF2B3F72D7002768FB /* AnimalsOfForest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsOfForest.swift; sourceTree = "<group>"; };
+		972D7BE12B3F72E8002768FB /* Landscapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landscapes.swift; sourceTree = "<group>"; };
+		97C027AC2B306FB500962EAE /* FirstStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStory.swift; sourceTree = "<group>"; };
+		97DA21492B3868DA00B29345 /* SecondStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +65,14 @@
 		9720A56E2B2A252C009912D5 /* Pages de Reves */ = {
 			isa = PBXGroup;
 			children = (
+				972D7BDC2B3F72B2002768FB /* Pictures */,
+				979D42EB2B3247290042882E /* Stories */,
 				9720A56F2B2A252C009912D5 /* Pages_de_RevesApp.swift */,
 				9720A5712B2A252C009912D5 /* ContentView.swift */,
 				9720A5732B2A252D009912D5 /* Assets.xcassets */,
 				9720A5752B2A252D009912D5 /* Preview Content */,
+				9720A57D2B2A4CE5009912D5 /* MainPage.swift */,
+				9720A57F2B2A4D87009912D5 /* StoriesBoard.swift */,
 			);
 			path = "Pages de Reves";
 			sourceTree = "<group>";
@@ -65,6 +83,25 @@
 				9720A5762B2A252D009912D5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		972D7BDC2B3F72B2002768FB /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				972D7BDD2B3F72C6002768FB /* Cities.swift */,
+				972D7BDF2B3F72D7002768FB /* AnimalsOfForest.swift */,
+				972D7BE12B3F72E8002768FB /* Landscapes.swift */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		979D42EB2B3247290042882E /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				97C027AC2B306FB500962EAE /* FirstStory.swift */,
+				97DA21492B3868DA00B29345 /* SecondStory.swift */,
+			);
+			path = Stories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +176,13 @@
 			files = (
 				9720A5722B2A252C009912D5 /* ContentView.swift in Sources */,
 				9720A5702B2A252C009912D5 /* Pages_de_RevesApp.swift in Sources */,
+				9720A5802B2A4D87009912D5 /* StoriesBoard.swift in Sources */,
+				97DA214A2B3868DA00B29345 /* SecondStory.swift in Sources */,
+				972D7BDE2B3F72C6002768FB /* Cities.swift in Sources */,
+				972D7BE02B3F72D7002768FB /* AnimalsOfForest.swift in Sources */,
+				97C027AD2B306FB500962EAE /* FirstStory.swift in Sources */,
+				972D7BE22B3F72E8002768FB /* Landscapes.swift in Sources */,
+				9720A57E2B2A4CE5009912D5 /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +249,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = iPad;
 			};
 			name = Debug;
 		};
@@ -260,6 +305,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = iPad;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -289,7 +335,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -318,7 +364,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
