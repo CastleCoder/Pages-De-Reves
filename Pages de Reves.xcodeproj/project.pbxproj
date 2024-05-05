@@ -16,7 +16,15 @@
 		972D7BDE2B3F72C6002768FB /* Cities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972D7BDD2B3F72C6002768FB /* Cities.swift */; };
 		972D7BE02B3F72D7002768FB /* AnimalsOfForest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972D7BDF2B3F72D7002768FB /* AnimalsOfForest.swift */; };
 		972D7BE22B3F72E8002768FB /* Landscapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972D7BE12B3F72E8002768FB /* Landscapes.swift */; };
+		974F4DCA2BE7F0560033B74B /* Seasons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F4DC92BE7F0560033B74B /* Seasons.swift */; };
+		974F4DCC2BE7F2AF0033B74B /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F4DCB2BE7F2AF0033B74B /* Fruits.swift */; };
+		974F4DCE2BE7F4C50033B74B /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F4DCD2BE7F4C50033B74B /* Jobs.swift */; };
+		974F4DD02BE7F6940033B74B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974F4DCF2BE7F6940033B74B /* Colors.swift */; };
 		97C027AD2B306FB500962EAE /* FirstStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C027AC2B306FB500962EAE /* FirstStory.swift */; };
+		97C10D602BB85A2200023E7D /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C10D5F2BB85A2200023E7D /* testView.swift */; };
+		97C10D622BBDFE7300023E7D /* Main_theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C10D612BBDFE7200023E7D /* Main_theme.mp3 */; };
+		97C10D642BBF425400023E7D /* boardsTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C10D632BBF425400023E7D /* boardsTheme.mp3 */; };
+		97C10D662BBF425A00023E7D /* music_fx_ambient_theme_for_reading_app_for_kids_soft.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97C10D652BBF425A00023E7D /* music_fx_ambient_theme_for_reading_app_for_kids_soft.mp3 */; };
 		97DA214A2B3868DA00B29345 /* SecondStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA21492B3868DA00B29345 /* SecondStory.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +39,15 @@
 		972D7BDD2B3F72C6002768FB /* Cities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cities.swift; sourceTree = "<group>"; };
 		972D7BDF2B3F72D7002768FB /* AnimalsOfForest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsOfForest.swift; sourceTree = "<group>"; };
 		972D7BE12B3F72E8002768FB /* Landscapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landscapes.swift; sourceTree = "<group>"; };
+		974F4DC92BE7F0560033B74B /* Seasons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seasons.swift; sourceTree = "<group>"; };
+		974F4DCB2BE7F2AF0033B74B /* Fruits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		974F4DCD2BE7F4C50033B74B /* Jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
+		974F4DCF2BE7F6940033B74B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		97C027AC2B306FB500962EAE /* FirstStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStory.swift; sourceTree = "<group>"; };
+		97C10D5F2BB85A2200023E7D /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		97C10D612BBDFE7200023E7D /* Main_theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Main_theme.mp3; sourceTree = "<group>"; };
+		97C10D632BBF425400023E7D /* boardsTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boardsTheme.mp3; sourceTree = "<group>"; };
+		97C10D652BBF425A00023E7D /* music_fx_ambient_theme_for_reading_app_for_kids_soft.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music_fx_ambient_theme_for_reading_app_for_kids_soft.mp3; sourceTree = "<group>"; };
 		97DA21492B3868DA00B29345 /* SecondStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +81,7 @@
 		9720A56E2B2A252C009912D5 /* Pages de Reves */ = {
 			isa = PBXGroup;
 			children = (
+				97C10D672BC9969100023E7D /* Sounds */,
 				972D7BDC2B3F72B2002768FB /* Pictures */,
 				979D42EB2B3247290042882E /* Stories */,
 				9720A56F2B2A252C009912D5 /* Pages_de_RevesApp.swift */,
@@ -73,6 +90,7 @@
 				9720A5752B2A252D009912D5 /* Preview Content */,
 				9720A57D2B2A4CE5009912D5 /* MainPage.swift */,
 				9720A57F2B2A4D87009912D5 /* StoriesBoard.swift */,
+				97C10D5F2BB85A2200023E7D /* testView.swift */,
 			);
 			path = "Pages de Reves";
 			sourceTree = "<group>";
@@ -91,6 +109,10 @@
 				972D7BDD2B3F72C6002768FB /* Cities.swift */,
 				972D7BDF2B3F72D7002768FB /* AnimalsOfForest.swift */,
 				972D7BE12B3F72E8002768FB /* Landscapes.swift */,
+				974F4DC92BE7F0560033B74B /* Seasons.swift */,
+				974F4DCB2BE7F2AF0033B74B /* Fruits.swift */,
+				974F4DCD2BE7F4C50033B74B /* Jobs.swift */,
+				974F4DCF2BE7F6940033B74B /* Colors.swift */,
 			);
 			path = Pictures;
 			sourceTree = "<group>";
@@ -102,6 +124,16 @@
 				97DA21492B3868DA00B29345 /* SecondStory.swift */,
 			);
 			path = Stories;
+			sourceTree = "<group>";
+		};
+		97C10D672BC9969100023E7D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				97C10D612BBDFE7200023E7D /* Main_theme.mp3 */,
+				97C10D632BBF425400023E7D /* boardsTheme.mp3 */,
+				97C10D652BBF425A00023E7D /* music_fx_ambient_theme_for_reading_app_for_kids_soft.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +194,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C10D662BBF425A00023E7D /* music_fx_ambient_theme_for_reading_app_for_kids_soft.mp3 in Resources */,
+				97C10D622BBDFE7300023E7D /* Main_theme.mp3 in Resources */,
 				9720A5772B2A252D009912D5 /* Preview Assets.xcassets in Resources */,
+				97C10D642BBF425400023E7D /* boardsTheme.mp3 in Resources */,
 				9720A5742B2A252D009912D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,10 +211,15 @@
 			files = (
 				9720A5722B2A252C009912D5 /* ContentView.swift in Sources */,
 				9720A5702B2A252C009912D5 /* Pages_de_RevesApp.swift in Sources */,
+				974F4DCA2BE7F0560033B74B /* Seasons.swift in Sources */,
+				974F4DD02BE7F6940033B74B /* Colors.swift in Sources */,
 				9720A5802B2A4D87009912D5 /* StoriesBoard.swift in Sources */,
 				97DA214A2B3868DA00B29345 /* SecondStory.swift in Sources */,
 				972D7BDE2B3F72C6002768FB /* Cities.swift in Sources */,
 				972D7BE02B3F72D7002768FB /* AnimalsOfForest.swift in Sources */,
+				974F4DCE2BE7F4C50033B74B /* Jobs.swift in Sources */,
+				97C10D602BB85A2200023E7D /* testView.swift in Sources */,
+				974F4DCC2BE7F2AF0033B74B /* Fruits.swift in Sources */,
 				97C027AD2B306FB500962EAE /* FirstStory.swift in Sources */,
 				972D7BE22B3F72E8002768FB /* Landscapes.swift in Sources */,
 				9720A57E2B2A4CE5009912D5 /* MainPage.swift in Sources */,
